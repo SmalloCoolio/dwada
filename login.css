@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.form-group{
+    margin: 20px 0;}
+input{ 
+    height: 30px; 
+    width: 100%; 
+    padding: 5px; }
+button{ 
+    background: dodgerblue; 
+    color: #fff; 
+    padding: 10px; 
+    border: solid 1px dodgerblue;
+    cursor: pointer;
+}
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main{
+    flex: 1;
+    margin: 20px 5px;
+}
+
+
+

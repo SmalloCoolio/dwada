@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body,html{
+    width: 100%;
+    margin: 0;
+}
+nav {
+    background-color: #333;
+    overflow: hidden;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-right: -10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+}
+nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #e1e8ee;
+    color: black;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.dropdown-content {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    position: fixed;
+}
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #333;
+    
+}
+.active {
+    background-color: #333;
+    color: white;
+}
+body{
+    background-color: #e1e8ee;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+.mySlides{
+    display: none;
+}
+img{
+    vertical-align: middle;
+}
+.tool {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 350px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.tool ul li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Darker background-color on hover */
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    margin-top: 1660px;
+}  
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+.addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+    width: 100px;
+    margin-top: -45px;
+    margin-left: 1110px;
+}  
+.addBtn:hover {
+    background-color: #bbb;
+}
+.Listers {
+    
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.output{
+    width: 300px;
+    height: 150px;
+}
+.text{
+    width: 100%;
+    margin: 0;
+    display: inline;
+    margin-left: 20px;
+    position: absolute;
+    top: 45%;
+}
+.file{
+    margin: none;
+    margin-top: -45px;
+    margin-left: 870px;
+    width: fit-content;
+}
+ul li {
+    width: 100%;
+    margin: 0;
+}
+
+
